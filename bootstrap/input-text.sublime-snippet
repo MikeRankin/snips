@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label for="${1:controlId}">${2:labelText}</label>
+	<input type="text" class="form-control" name="${1:controlId}" id="${1:controlId}" placeholder="${3:placeholder}">
+ </div>
+]]></content>
+	<tabTrigger>bit</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.cfm</scope>
+</snippet>
