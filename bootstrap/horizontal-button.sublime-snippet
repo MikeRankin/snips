@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
 <div class="form-group">
- 	<div class="${1:col-sm-offset-2} ${2:col-sm-10">
+ 	<div class="${1:col-sm-offset-2} ${2:col-sm-10}">
  		<button type="button" class="btn ${3:btn-primary}">${4:button text}</button>
  	</div>
 </div>
 ]]></content>
 	<tabTrigger>bhb</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.cfm</scope>
+	<scope>text.html</scope>
 </snippet>
