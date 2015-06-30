@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+property name="$1" fieldtype="id" ormtype="$2" ${3:column="${4:column_name}"} ${5:generator="${6:native}"} ${7:params="${8:{key1=val1,key2=val2\}}"} ${9:sqltype="${10:db_data_type}"} ${11:length="$12"} ${13:unsavedvalude="${14:instanciated_instance}"};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>proppk</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cfscript.cfc</scope>
+	<description>column property</description>
+</snippet>

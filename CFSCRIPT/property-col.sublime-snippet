@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+property name="$1" fieldtype="column" ${2:column="${3:column_name}"} ${4:persistent="${5:true}"} ${6:formula="${7:SQL expression}"} ormtype="$8" ${9:update="${10:true}"} ${11:insert="${12:true}"} ${13:optimisticLock="${14:true}"} ${15:generated="${16:true}"} ${17:length="$18"} ${19:precision="$20"} ${21:scale="$22"} ${23:index="${24:index_name}"} ${25:unique="${26:true}"} ${27:uniquekey="${28:uniquekey_name}"} notnull="${29:false}" ${30:dbdefault="${31:default_col_value}"} sqltype="${32:sql_type}";
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>propc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.cfscript.cfc</scope>
+	<description>column property</description>
+</snippet>
